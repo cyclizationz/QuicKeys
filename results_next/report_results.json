@@ -1,0 +1,316 @@
+{
+  "cases": {
+    "A": {
+      "name": "A",
+      "n_lat": 800,
+      "p50_ms": 60.647949999999994,
+      "p95_ms": 61.03823499999999,
+      "p99_ms": 61.090241000000006,
+      "max_ms": 61.109,
+      "heals": 0,
+      "heal_p50_ms": null,
+      "heal_p95_ms": null,
+      "watchdog_fires": 0,
+      "stuck_pct": 0.0,
+      "bw_kbps": 77.07151515151516,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.2,
+      "daemon_cpu_std": 0.42163702135578396,
+      "qemu_cpu_mean": 4.2,
+      "qemu_cpu_std": 0.9189365834726815
+    },
+    "B": {
+      "name": "B",
+      "n_lat": 779,
+      "p50_ms": 60.4288,
+      "p95_ms": 78.76506,
+      "p99_ms": 80.221928,
+      "max_ms": 80.9514,
+      "heals": 243,
+      "heal_p50_ms": 72.0693,
+      "heal_p95_ms": 136.7078,
+      "watchdog_fires": 0,
+      "stuck_pct": 0.0,
+      "bw_kbps": 77.07151515151516,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.1,
+      "daemon_cpu_std": 0.31622776601683794,
+      "qemu_cpu_mean": 4.1,
+      "qemu_cpu_std": 0.7378647873726218
+    },
+    "C": {
+      "name": "C",
+      "n_lat": 767,
+      "p50_ms": 59.9749,
+      "p95_ms": 105.02179999999997,
+      "p99_ms": 109.63094000000001,
+      "max_ms": 110.632,
+      "heals": 223,
+      "heal_p50_ms": 81.9256,
+      "heal_p95_ms": 132.04489999999998,
+      "watchdog_fires": 3,
+      "stuck_pct": 0.75,
+      "bw_kbps": 64.59151515151515,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.1,
+      "daemon_cpu_std": 0.31622776601683794,
+      "qemu_cpu_mean": 4.1,
+      "qemu_cpu_std": 0.7378647873726218
+    },
+    "D": {
+      "name": "D",
+      "n_lat": 711,
+      "p50_ms": 60.3029,
+      "p95_ms": 147.846,
+      "p99_ms": 157.8304,
+      "max_ms": 160.017,
+      "heals": 146,
+      "heal_p50_ms": 94.55535,
+      "heal_p95_ms": 167.243,
+      "watchdog_fires": 53,
+      "stuck_pct": 1.0,
+      "bw_kbps": 52.11151515151515,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.0,
+      "daemon_cpu_std": 0.0,
+      "qemu_cpu_mean": 4.1,
+      "qemu_cpu_std": 0.5676462121975466
+    }
+  },
+  "meta": {
+    "repeat": 100,
+    "key_delay_ms": 10.0
+  },
+  "ablations_caseB": {
+    "full": {
+      "name": "abl_full",
+      "n_lat": 779,
+      "p50_ms": 59.1244,
+      "p95_ms": 78.81692000000001,
+      "p99_ms": 80.289996,
+      "max_ms": 80.6434,
+      "heals": 229,
+      "heal_p50_ms": 71.7977,
+      "heal_p95_ms": 137.311,
+      "watchdog_fires": 0,
+      "stuck_pct": 0.0,
+      "bw_kbps": 77.07151515151516,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.2,
+      "daemon_cpu_std": 0.42163702135578396,
+      "qemu_cpu_mean": null,
+      "qemu_cpu_std": null
+    },
+    "no_watchdog": {
+      "name": "abl_no_watchdog",
+      "n_lat": 775,
+      "p50_ms": 60.4989,
+      "p95_ms": 78.57431,
+      "p99_ms": 80.388286,
+      "max_ms": 80.9986,
+      "heals": 216,
+      "heal_p50_ms": 73.5222,
+      "heal_p95_ms": 135.98225,
+      "watchdog_fires": 0,
+      "stuck_pct": 0.0,
+      "bw_kbps": 77.07151515151516,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.0,
+      "daemon_cpu_std": 0.0,
+      "qemu_cpu_mean": null,
+      "qemu_cpu_std": null
+    },
+    "no_deadline": {
+      "name": "abl_no_deadline",
+      "n_lat": 772,
+      "p50_ms": 60.72,
+      "p95_ms": 78.89316,
+      "p99_ms": 80.278309,
+      "max_ms": 80.9292,
+      "heals": 241,
+      "heal_p50_ms": 73.3087,
+      "heal_p95_ms": 133.33,
+      "watchdog_fires": 0,
+      "stuck_pct": 0.0,
+      "bw_kbps": 77.07151515151516,
+      "daemon_cpu_pct": 0.5,
+      "daemon_cpu_mean": 0.1,
+      "daemon_cpu_std": 0.31622776601683794,
+      "qemu_cpu_mean": null,
+      "qemu_cpu_std": null
+    },
+    "udp_only_no_snapshots": {
+      "name": "abl_udp_only",
+      "n_lat": 683,
+      "p50_ms": 61.1433,
+      "p95_ms": 78.51516,
+      "p99_ms": 80.04046799999999,
+      "max_ms": 81.8021,
+      "heals": 0,
+      "heal_p50_ms": null,
+      "heal_p95_ms": null,
+      "watchdog_fires": 0,
+      "stuck_pct": 0.75,
+      "bw_kbps": 77.07151515151516,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.1,
+      "daemon_cpu_std": 0.31622776601683794,
+      "qemu_cpu_mean": null,
+      "qemu_cpu_std": null
+    },
+    "udp_only_no_snapshots_no_watchdog": {
+      "name": "abl_udp_only_no_watchdog",
+      "n_lat": 679,
+      "p50_ms": 61.2267,
+      "p95_ms": 78.21411,
+      "p99_ms": 79.643722,
+      "max_ms": 81.4574,
+      "heals": 0,
+      "heal_p50_ms": null,
+      "heal_p95_ms": null,
+      "watchdog_fires": 0,
+      "stuck_pct": 0.25,
+      "bw_kbps": 77.07151515151516,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.1,
+      "daemon_cpu_std": 0.31622776601683794,
+      "qemu_cpu_mean": null,
+      "qemu_cpu_std": null
+    },
+    "quic_only_edges": {
+      "name": "abl_quic_only",
+      "n_lat": 799,
+      "p50_ms": 62.0,
+      "p95_ms": 79.0,
+      "p99_ms": 80.0,
+      "max_ms": 81.0,
+      "heals": 0,
+      "heal_p50_ms": null,
+      "heal_p95_ms": null,
+      "watchdog_fires": 0,
+      "stuck_pct": 0.25,
+      "bw_kbps": 77.07151515151516,
+      "daemon_cpu_pct": 0.0,
+      "daemon_cpu_mean": 0.1,
+      "daemon_cpu_std": 0.31622776601683794,
+      "qemu_cpu_mean": null,
+      "qemu_cpu_std": null
+    }
+  },
+  "healing_vs_hz": {
+    "60": {
+      "heal_p50_ms": 78.7251,
+      "heal_p95_ms": 138.3263
+    },
+    "90": {
+      "heal_p50_ms": 73.57025,
+      "heal_p95_ms": 139.5785
+    },
+    "120": {
+      "heal_p50_ms": 72.524,
+      "heal_p95_ms": 137.69254999999998
+    }
+  },
+  "heatmap": [
+    {
+      "loss": 0,
+      "jitter_ms": 0,
+      "stuck_pct": 5.0
+    },
+    {
+      "loss": 0,
+      "jitter_ms": 20,
+      "stuck_pct": 17.59259259259259
+    },
+    {
+      "loss": 0,
+      "jitter_ms": 50,
+      "stuck_pct": 13.703703703703704
+    },
+    {
+      "loss": 0,
+      "jitter_ms": 100,
+      "stuck_pct": 13.518518518518519
+    },
+    {
+      "loss": 1,
+      "jitter_ms": 0,
+      "stuck_pct": 5.555555555555555
+    },
+    {
+      "loss": 1,
+      "jitter_ms": 20,
+      "stuck_pct": 17.22222222222222
+    },
+    {
+      "loss": 1,
+      "jitter_ms": 50,
+      "stuck_pct": 16.296296296296298
+    },
+    {
+      "loss": 1,
+      "jitter_ms": 100,
+      "stuck_pct": 13.148148148148149
+    },
+    {
+      "loss": 3,
+      "jitter_ms": 0,
+      "stuck_pct": 7.037037037037037
+    },
+    {
+      "loss": 3,
+      "jitter_ms": 20,
+      "stuck_pct": 18.333333333333332
+    },
+    {
+      "loss": 3,
+      "jitter_ms": 50,
+      "stuck_pct": 16.11111111111111
+    },
+    {
+      "loss": 3,
+      "jitter_ms": 100,
+      "stuck_pct": 15.0
+    },
+    {
+      "loss": 5,
+      "jitter_ms": 0,
+      "stuck_pct": 7.037037037037037
+    },
+    {
+      "loss": 5,
+      "jitter_ms": 20,
+      "stuck_pct": 17.962962962962962
+    },
+    {
+      "loss": 5,
+      "jitter_ms": 50,
+      "stuck_pct": 15.74074074074074
+    },
+    {
+      "loss": 5,
+      "jitter_ms": 100,
+      "stuck_pct": 15.185185185185185
+    },
+    {
+      "loss": 10,
+      "jitter_ms": 0,
+      "stuck_pct": 8.333333333333334
+    },
+    {
+      "loss": 10,
+      "jitter_ms": 20,
+      "stuck_pct": 18.703703703703702
+    },
+    {
+      "loss": 10,
+      "jitter_ms": 50,
+      "stuck_pct": 15.37037037037037
+    },
+    {
+      "loss": 10,
+      "jitter_ms": 100,
+      "stuck_pct": 15.74074074074074
+    }
+  ]
+}

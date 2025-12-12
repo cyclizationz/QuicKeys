@@ -1,0 +1,1127 @@
+[hidra] daemon starting
+  udp edges : 0.0.0.0:4444
+  hid socket: /run/user/1000/hidra.kbd (QEMU should be server=on)
+  watchdog  : 200 ms
+  deadline  : 100 ms
+  stuck(ms) : 300 ms
+[hidra] msquic snapshot listener on :4445 (ALPN hidra-snp)
+[hidra] msquic edge listener on :4446 (ALPN hidra-edg)
+[msquic] connection: CONNECTED
+[lat] dt_ms=43.9131 cmd=down key=a
+[hidra] Connected to HID socket: /run/user/1000/hidra.kbd
+[hidra] progress: rx=1 emits=1 quic_snapshots=0 socket=connected
+[lat] dt_ms=42.1688 cmd=up key=p
+[msquic] connection: PEER_STREAM_STARTED
+[hidra] snapshot v1 mods=0x0 pressed=1
+[heal] key=4 heal_ms=64.9252
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.6993 cmd=up key=a
+[lat] dt_ms=49.0615 cmd=down key=t
+[lat] dt_ms=74.5559 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=56.5643
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=51.3421 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=40 heal_ms=60.9402
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[lat] dt_ms=57.5798 cmd=down key=a
+[lat] dt_ms=68.1171 cmd=up key=ENTER
+[lat] dt_ms=50.0422 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=41.7133 cmd=down key=t
+[lat] dt_ms=66.8316 cmd=down key=p
+[heal] key=19 heal_ms=61.6303
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=77.0129 cmd=up key=p
+[heal] key=23 heal_ms=73.6623
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=69.4746 cmd=down key=ENTER
+[lat] dt_ms=62.4142 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=76.7928 cmd=down key=a
+[lat] dt_ms=67.1723 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=68.7979 cmd=down key=p
+[heal] key=19 heal_ms=73.9304
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.331 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=77.5047 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=68.7052 cmd=down key=ENTER
+[lat] dt_ms=56.2253 cmd=down key=a
+[lat] dt_ms=46.9713 cmd=up key=a
+[lat] dt_ms=79.1215 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=56.4766 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=48.0089 cmd=down key=t
+[lat] dt_ms=59.6851 cmd=up key=p
+[heal] key=23 heal_ms=128.742
+[heal] key=4 heal_ms=87.0021
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=19 heal_ms=74.4053
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=54.7962
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=48.6168 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=70.7439 cmd=down key=ENTER
+[heal] key=4 heal_ms=54.7714
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=72.7955 cmd=down key=a
+[lat] dt_ms=70.6827 cmd=up key=a
+[lat] dt_ms=49.3564 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=73.0298 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=77.8278 cmd=down key=t
+[heal] key=19 heal_ms=88.2936
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=73.5135
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=77.4935 cmd=down key=ENTER
+[lat] dt_ms=58.0383 cmd=down key=a
+[lat] dt_ms=71.7541 cmd=up key=ENTER
+[lat] dt_ms=55.0509 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=62.1912 cmd=down key=p
+[lat] dt_ms=47.807 cmd=down key=t
+[lat] dt_ms=68.2801 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=55.5059 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=78.651
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=62.6298 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=51.6683 cmd=down key=p
+[lat] dt_ms=67.1645 cmd=up key=a
+[lat] dt_ms=79.4948 cmd=down key=a
+[heal] key=19 heal_ms=48.2675
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=65.0102 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=51.7895 cmd=down key=ENTER
+[lat] dt_ms=76.7946 cmd=down key=t
+[heal] key=23 heal_ms=70.7409
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=58.3193 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.4448 cmd=down key=a
+[heal] key=4 heal_ms=58.436
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=49.6541 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=70.1497 cmd=up key=a
+[lat] dt_ms=49.7075 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=62.8364 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=48.4963 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=41.8415 cmd=up key=ENTER
+[heal] key=23 heal_ms=78.4377
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=45.9913 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=60.4077 cmd=down key=a
+[lat] dt_ms=41.8079 cmd=down key=p
+[heal] key=19 heal_ms=124.581
+[heal] key=4 heal_ms=61.5902
+[heal] key=40 heal_ms=82.1833
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=58.6267 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=55.4785 cmd=down key=ENTER
+[lat] dt_ms=46.9504 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.9445 cmd=down key=t
+[heal] key=23 heal_ms=72.6774
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=40 heal_ms=64.1485
+[msquic] stream: RECEIVE bytes=52 buffers=2 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.6253 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=65.3324
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=78.0297 cmd=up key=a
+[lat] dt_ms=70.9812 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.6113 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=67.1572
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.8035 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=65.1755 cmd=down key=ENTER
+[lat] dt_ms=65.5102 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=75.8609 cmd=down key=a
+[lat] dt_ms=56.0687 cmd=down key=p
+[heal] key=19 heal_ms=45.4394
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=73.7791 cmd=up key=a
+[lat] dt_ms=61.9747 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.9446 cmd=down key=t
+[lat] dt_ms=43.0851 cmd=down key=ENTER
+[heal] key=40 heal_ms=124.336
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=47.8363 cmd=down key=a
+[lat] dt_ms=65.8274 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=61.0257 cmd=up key=a
+[lat] dt_ms=53.98 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=54.1828 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=138
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=69.5893 cmd=down key=t
+[heal] key=23 heal_ms=65.1673
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=46.3918 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=40 heal_ms=58.2961
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.843 cmd=down key=ENTER
+[lat] dt_ms=41.3499 cmd=down key=p
+[heal] key=19 heal_ms=127.222
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=65.8426 cmd=up key=a
+[lat] dt_ms=79.2637 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=71.5355
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=63.7384 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=61.7264 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=43.5553 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=60.7473 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=83.9267
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=69.5486 cmd=down key=a
+[heal] key=4 heal_ms=65.5465
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=71.858 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=59.9619 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=73.0551 cmd=down key=p
+[hidra] snapshot v1 mods=0x0 pressed=1
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=51.6209
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=76.7577 cmd=down key=t
+[lat] dt_ms=60.8113 cmd=down key=ENTER
+[heal] key=40 heal_ms=55.7661
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=59.046 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=61.1162 cmd=down key=a
+[lat] dt_ms=67.8171 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=52.0217 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=63.6408 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.2161 cmd=down key=t
+[lat] dt_ms=48.045 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=63.0232 cmd=down key=a
+[lat] dt_ms=74.3361 cmd=up key=ENTER
+[heal] key=4 heal_ms=67.9278
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.7765 cmd=down key=p
+[lat] dt_ms=80.6836 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=57.5695 cmd=down key=t
+[lat] dt_ms=68.8269 cmd=up key=p
+[heal] key=23 heal_ms=134.119
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=48.192 cmd=down key=ENTER
+[heal] key=40 heal_ms=43.2178
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[heal] key=23 heal_ms=83.6311
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=59.3831 cmd=down key=a
+[lat] dt_ms=71.1534 cmd=up key=ENTER
+[heal] key=4 heal_ms=49.8131
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=69.765 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=48.1501 cmd=down key=t
+[lat] dt_ms=74.1465 cmd=down key=p
+[heal] key=23 heal_ms=45.3536
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=71.4286 cmd=up key=p
+[lat] dt_ms=45.3092 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=45.3 cmd=down key=a
+[lat] dt_ms=66.1079 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=53.2386 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=19 heal_ms=119.597
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=2 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=76.6353 cmd=down key=p
+[lat] dt_ms=57.8565 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=70.681 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=47.737 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[lat] dt_ms=62.6444 cmd=down key=ENTER
+[heal] key=40 heal_ms=74.6656
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=54.8956 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=78.9535 cmd=down key=a
+[heal] key=4 heal_ms=81.0795
+[heal] key=19 heal_ms=143.84
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[lat] dt_ms=61.5515 cmd=up key=p
+[lat] dt_ms=51.0258 cmd=down key=t
+[lat] dt_ms=76.3193 cmd=down key=p
+[heal] key=19 heal_ms=70.9859
+[heal] key=23 heal_ms=49.2329
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=43.3618 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=78.6512 cmd=down key=ENTER
+[lat] dt_ms=77.3242 cmd=up key=ENTER
+[lat] dt_ms=49.8602 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=72.0318 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=42.3259 cmd=down key=t
+[lat] dt_ms=56.6478 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=19 heal_ms=68.4187
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=46.2312 cmd=down key=ENTER
+[heal] key=40 heal_ms=124.717
+[heal] key=23 heal_ms=62.1176
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=55.6706 cmd=up key=ENTER
+[lat] dt_ms=45.0146 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=74.6132 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=68.5365
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=52.5321 cmd=up key=p
+[lat] dt_ms=64.2094 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=69.4962 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=62.9433 cmd=down key=ENTER
+[lat] dt_ms=61.5866 cmd=up key=ENTER
+[heal] key=23 heal_ms=82.9261
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=59.6839 cmd=up key=a
+[lat] dt_ms=50.4906 cmd=down key=p
+[heal] key=19 heal_ms=123.737
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=74.5504 cmd=down key=a
+[heal] key=4 heal_ms=78.5805
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=51.5391 cmd=down key=t
+[lat] dt_ms=66.9355 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=66.2988 cmd=down key=ENTER
+[lat] dt_ms=56.2391 cmd=down key=a
+[heal] key=4 heal_ms=45.9783
+[heal] key=40 heal_ms=149.785
+[heal] key=23 heal_ms=86.7591
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=71.6394 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=40 heal_ms=75.1763
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=55.672 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=59.7903 cmd=down key=p
+[lat] dt_ms=50.1968 cmd=up key=p
+[lat] dt_ms=47.2844 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=60.2682
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=76.6905 cmd=down key=ENTER
+[heal] key=40 heal_ms=67.4051
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=74.1055 cmd=up key=ENTER
+[lat] dt_ms=53.4771 cmd=down key=p
+[lat] dt_ms=77.6708 cmd=down key=a
+[heal] key=4 heal_ms=77.6973
+[heal] key=19 heal_ms=141.3
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.7486 cmd=up key=a
+[lat] dt_ms=69.4277 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[hidra] progress: rx=259 emits=378 quic_snapshots=213 socket=connected
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.41 cmd=down key=ENTER
+[heal] key=23 heal_ms=75.4171
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=40 heal_ms=70.0991
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[lat] dt_ms=63.9651 cmd=down key=a
+[lat] dt_ms=76.3336 cmd=up key=ENTER
+[heal] key=4 heal_ms=65.0131
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=19 heal_ms=133.918
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=51.7476 cmd=up key=p
+[lat] dt_ms=64.4877 cmd=down key=p
+[lat] dt_ms=76.0614 cmd=up key=a
+[lat] dt_ms=44.7113 cmd=down key=t
+[heal] key=19 heal_ms=75.5576
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=45.5871 cmd=up key=ENTER
+[lat] dt_ms=57.0013 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=48.0344 cmd=up key=a
+[heal] key=23 heal_ms=91.4007
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=72.1944 cmd=down key=a
+[heal] key=4 heal_ms=65.1426
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=57.0072 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=68.9777 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=40 heal_ms=122.064
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[lat] dt_ms=54.5936 cmd=down key=ENTER
+[lat] dt_ms=77.5847 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=56.6906 cmd=up key=ENTER
+[lat] dt_ms=59.2162 cmd=down key=a
+[heal] key=4 heal_ms=53.3607
+[heal] key=23 heal_ms=96.3541
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=55.3989 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=2 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=55.7622 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=59.9547 cmd=up key=p
+[lat] dt_ms=51.9154 cmd=down key=ENTER
+[lat] dt_ms=79.0123 cmd=down key=t
+[heal] key=40 heal_ms=135.426
+[hidra] snapshot v1 mods=0x0 pressed=1
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=72.6862
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=40 heal_ms=61.3108
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=69.8876 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=53.0769
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=58.3734 cmd=up key=a
+[lat] dt_ms=72.7998 cmd=down key=a
+[lat] dt_ms=52.3188 cmd=down key=p
+[lat] dt_ms=44.4227 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=53.3986 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=52.4446 cmd=down key=ENTER
+[heal] key=23 heal_ms=73.0921
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=47.3925 cmd=up key=a
+[lat] dt_ms=75.2905 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=78.5703 cmd=down key=a
+[heal] key=19 heal_ms=133.593
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=61.0368 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=60.9621 cmd=down key=t
+[lat] dt_ms=40.9591 cmd=down key=ENTER
+[lat] dt_ms=77.4737 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=44.0473 cmd=up key=ENTER
+[heal] key=23 heal_ms=70.0521
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=42.4841 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=54.7589 cmd=up key=a
+[lat] dt_ms=45.5639 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=53.438 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=61.6571 cmd=down key=t
+[heal] key=23 heal_ms=54.3708
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=52.8301 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=71.8081 cmd=down key=ENTER
+[lat] dt_ms=57.8244 cmd=down key=a
+[lat] dt_ms=55.6721 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=57.4782 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=52.058 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=62.5696 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=49.0971 cmd=down key=ENTER
+[lat] dt_ms=43.9687 cmd=down key=a
+[heal] key=4 heal_ms=119.921
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=40 heal_ms=67.8087
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=48.3521 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.7999 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=57.0755 cmd=down key=p
+[heal] key=19 heal_ms=145.951
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=61.5665 cmd=down key=t
+[heal] key=23 heal_ms=137.441
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=19 heal_ms=76.1094
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=53.9309 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=55.6927 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=44.2548 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=62.3261 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=57.9345 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=79.3481
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=47.0824 cmd=down key=ENTER
+[lat] dt_ms=79.8101 cmd=up key=p
+[heal] key=40 heal_ms=127.682
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.3124 cmd=down key=t
+[heal] key=23 heal_ms=69.0878
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=58.6027 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=68.9642 cmd=down key=a
+[lat] dt_ms=68.5156 cmd=up key=a
+[lat] dt_ms=49.5769 cmd=up key=p
+[heal] key=40 heal_ms=98.5371
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=52.1125 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=50.2974 cmd=down key=ENTER
+[lat] dt_ms=59.3713 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.0364 cmd=down key=a
+[lat] dt_ms=65.0702 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=19 heal_ms=59.6773
+[msquic] stream: RECEIVE bytes=52 buffers=2 pending=0
+[heal] key=23 heal_ms=127.019
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=75.5667 cmd=down key=p
+[lat] dt_ms=68.3197 cmd=up key=p
+[lat] dt_ms=62.2979 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=117.04
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=60.1448 cmd=up key=ENTER
+[lat] dt_ms=75.7887 cmd=down key=ENTER
+[lat] dt_ms=61.9354 cmd=down key=a
+[heal] key=40 heal_ms=82.531
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=67.3196 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=73.9374 cmd=down key=p
+[lat] dt_ms=68.5929 cmd=up key=p
+[lat] dt_ms=59.3481 cmd=down key=t
+[lat] dt_ms=46.766 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=142.435
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=40.7744 cmd=down key=p
+[lat] dt_ms=74.4793 cmd=up key=ENTER
+[lat] dt_ms=65.0163 cmd=down key=a
+[heal] key=19 heal_ms=117.843
+[heal] key=23 heal_ms=96.9799
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=61.6453
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.5896 cmd=up key=a
+[lat] dt_ms=65.8059 cmd=up key=p
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=66.3482 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.8792 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=53.1537 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=58.1573 cmd=up key=p
+[lat] dt_ms=48.9644 cmd=down key=t
+[heal] key=23 heal_ms=124.29
+[heal] key=4 heal_ms=81.4495
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=57.0789 cmd=up key=ENTER
+[heal] key=23 heal_ms=80.2243
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=74.8877 cmd=down key=ENTER
+[heal] key=40 heal_ms=65.8595
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=46.2157
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[lat] dt_ms=49.4994 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=80.509 cmd=down key=a
+[lat] dt_ms=61.8507 cmd=down key=p
+[heal] key=19 heal_ms=138.107
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=53.8852 cmd=down key=t
+[lat] dt_ms=41.8177 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.3852 cmd=up key=p
+[heal] key=23 heal_ms=60.2418
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=56.0555 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=51.56 cmd=up key=a
+[lat] dt_ms=71.5515 cmd=down key=a
+[heal] key=4 heal_ms=81.034
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=72.7251 cmd=down key=p
+[heal] key=19 heal_ms=63.0937
+[hidra] snapshot v1 mods=0x0 pressed=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=42.1898 cmd=up key=ENTER
+[lat] dt_ms=79.6111 cmd=down key=t
+[lat] dt_ms=69.8749 cmd=down key=ENTER
+[heal] key=40 heal_ms=59.7765
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=84.8128
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.5734 cmd=down key=a
+[heal] key=4 heal_ms=53.6465
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=52.7829 cmd=down key=p
+[lat] dt_ms=54.6318 cmd=down key=t
+[heal] key=19 heal_ms=68.0806
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=53.4698
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=78.7708 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.0251 cmd=down key=ENTER
+[lat] dt_ms=44.0478 cmd=down key=a
+[lat] dt_ms=60.3695 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=50.5062 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=74.8633
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=77.2236 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=54.8949 cmd=down key=t
+[lat] dt_ms=74.6581 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=51.6158 cmd=up key=ENTER
+[lat] dt_ms=67.5502 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=60.0826 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=62.0455
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=71.6637 cmd=up key=a
+[lat] dt_ms=64.5883 cmd=down key=p
+[heal] key=19 heal_ms=54.4259
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=118.514
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=55.3517 cmd=down key=t
+[lat] dt_ms=75.2933 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=43.5254 cmd=up key=ENTER
+[heal] key=23 heal_ms=66.7914
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=67.8196 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=2 pending=0
+[heal] key=40 heal_ms=62.664
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=50.7424 cmd=up key=a
+[lat] dt_ms=40.4843 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=70.6815 cmd=down key=a
+[heal] key=4 heal_ms=63.2694
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=63.2093 cmd=up key=p
+[heal] key=23 heal_ms=53.0692
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=44.7876 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[lat] dt_ms=78.7899 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=45.4917 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=43.0123 cmd=down key=p
+[lat] dt_ms=64.8515 cmd=down key=a
+[lat] dt_ms=76.4477 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=72.1006
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=57.176 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=65.9775 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=57.8502 cmd=down key=a
+[lat] dt_ms=78.9038 cmd=down key=ENTER
+[heal] key=40 heal_ms=72.3706
+[heal] key=4 heal_ms=51.3121
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=78.4888 cmd=up key=ENTER
+[lat] dt_ms=60.5039 cmd=up key=a
+[lat] dt_ms=53.6058 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=61.5734 cmd=down key=t
+[lat] dt_ms=43.3691 cmd=down key=ENTER
+[heal] key=23 heal_ms=53.726
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.4838 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[lat] dt_ms=51.0508 cmd=down key=a
+[lat] dt_ms=64.8864 cmd=up key=ENTER
+[lat] dt_ms=41.1462 cmd=down key=p
+[lat] dt_ms=53.4089 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=48.2487 cmd=up key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=43.0093 cmd=down key=t
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=4 heal_ms=104.086
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=84.1963
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.2607 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=71.7353 cmd=up key=ENTER
+[lat] dt_ms=61.5315 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=75.3457 cmd=up key=a
+[hidra] progress: rx=513 emits=758 quic_snapshots=435 socket=connected
+[heal] key=19 heal_ms=62.4313
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=75.804 cmd=down key=p
+[lat] dt_ms=64.7609 cmd=up key=p
+[lat] dt_ms=41.1192 cmd=down key=ENTER
+[lat] dt_ms=63.3099 cmd=down key=t
+[heal] key=23 heal_ms=67.3191
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=49.8712 cmd=up key=a
+[lat] dt_ms=72.2235 cmd=up key=ENTER
+[lat] dt_ms=70.8364 cmd=down key=a
+[lat] dt_ms=41.3988 cmd=down key=t
+[lat] dt_ms=54.1691 cmd=up key=p
+[heal] key=4 heal_ms=79.7757
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=79.0774 cmd=down key=p
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=46.8437 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=69.8642 cmd=down key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=62.905 cmd=down key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=44.0953 cmd=down key=p
+[lat] dt_ms=55.8981 cmd=up key=a
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=41.7549 cmd=down key=t
+[lat] dt_ms=64.6332 cmd=up key=p
+[heal] key=23 heal_ms=126.991
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[heal] key=23 heal_ms=61.3284
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=62.1172 cmd=down key=ENTER
+[heal] key=40 heal_ms=51.4823
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[lat] dt_ms=64.2841 cmd=up key=ENTER
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=2 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[hidra] snapshot v1 mods=0x0 pressed=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=2 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=104 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=156 buffers=1 pending=0
+[hidra] snapshot v1 mods=0x0 pressed=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] connection: SHUTDOWN_BY_PEER error_code=0
+[msquic] connection: SHUTDOWN_COMPLETE handshake_completed=0 peer_ack=0 app_close_in_progress=0
+[msquic] connection: SHUTDOWN_COMPLETE handshake_completed=1 peer_ack=1 app_close_in_progress=1
+[msquic] connection: CONNECTED
+[msquic] connection: PEER_STREAM_STARTED
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] stream: RECEIVE bytes=52 buffers=1 pending=0
+[msquic] connection: SHUTDOWN_BY_PEER error_code=0
+[msquic] connection: SHUTDOWN_COMPLETE handshake_completed=0 peer_ack=0 app_close_in_progress=0
+[msquic] connection: SHUTDOWN_COMPLETE handshake_completed=1 peer_ack=1 app_close_in_progress=1
