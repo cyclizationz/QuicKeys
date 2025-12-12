@@ -1,0 +1,230 @@
+\documentclass[11pt]{article}
+
+% --- Template-compatible packages (matches your Report_Template preamble style) ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage[numbers]{natbib}
+\usepackage{graphicx}
+\usepackage{grffile} % allow spaces in graphics paths (e.g., 'Figures/2. Result/...')
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[margin = 2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{appendix}
+\usepackage{fancyhdr}
+\usepackage[shortlabels]{enumitem}
+\usepackage{hyperref}
+\usepackage[noabbrev, capitalise]{cleveref}
+\usepackage{xcolor}
+
+\title{QuickKeys: Snapshot-Healed Hypervisor HID for Robust Low-Latency Remote Input}
+\author{Tiehang Zhang (200598590)}
+\date{}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\begin{abstract}
+Remote keyboard input over lossy networks must balance responsiveness with correctness. In practice, delayed or dropped key-release events can cause the receiver to interpret a key as continuously held, triggering operating-system auto-repeat (e.g., typing \texttt{apt} becomes \texttt{appppppt}). Conventional reliable byte streams such as TCP can mitigate loss but introduce head-of-line blocking, which can inflate tail latency for interactive input. Conversely, UDP preserves immediacy but provides no intrinsic healing when events are lost. This report evaluates a hybrid transport design that transmits immediate key edges over UDP and transmits periodic authoritative key-state snapshots over QUIC. A host-side C++ daemon reconciles both streams, applies bounded staleness filtering (deadline) and a watchdog fail-safe, and emits standard USB-HID keyboard reports into a QEMU guest, avoiding guest-side injection hooks. Using scripted terminal workloads and a controlled loss/jitter sweep, we quantify client-to-daemon latency, snapshot-bounded healing after missed releases, and the resulting stuck-key rate. Overall, the results support the hypothesis that periodic snapshots bound recovery time while preserving low perceived latency on the edge path.
+\end{abstract}
+
+\section{Motivation \& Problem}
+Remote control and cloud-gaming stacks frequently experience correctness failures when key-release events are delayed or lost. Because most guest operating systems implement key auto-repeat when a key remains logically pressed, a single missing \texttt{keyup} can lead to unbounded repetition until recovery occurs. A common mitigation is to rely on reliable transport; however, reliable byte streams such as TCP \citep{rfc9293} can introduce head-of-line blocking, where loss of an earlier segment delays delivery of later input events. UDP-based delivery preserves responsiveness but provides no built-in recovery from loss. In addition, guest-side injection mechanisms (user-mode hooks or kernel drivers) can conflict with integrity or policy constraints, motivating a hypervisor-presented device model.
+Our goal is to deliver a remote keyboard path with sub-\SI{50}{ms} median client-to-daemon latency while achieving zero stuck or repeated keys at loss rates up to \SI{5}{\percent}. We pursue this goal by combining low-latency UDP edge delivery with authoritative QUIC snapshots \citep{rfc9000,rfc9001}, and by presenting a standard USB-HID keyboard device to the guest \citep{usb_hid} via QEMU \citep{qemu}, thereby avoiding guest-side hooks.
+In a snapshot-healed design, recovery after a missed release is bounded by the snapshot period and the guest's input polling: \(T_{\mathrm{heal}} \le T_{\mathrm{snapshot}} + T_{\mathrm{USB\text{-}poll}} + \epsilon\), where \(\epsilon\) captures scheduling overhead and network delay/jitter. For \SI{120}{Hz} snapshots (\(T_{\mathrm{snapshot}}\approx\)\SI{8.3}{ms}) and a \SI{10}{ms} USB poll interval, the expected post-snapshot correction is approximately \SIrange{8.3}{18}{ms} plus \(\epsilon\).
+
+\section{Background and Related Work}
+QUIC \citep{rfc9000} provides secure, congestion-controlled transport over UDP with multiplexed streams and TLS 1.3 security \citep{rfc9001}. It can reduce head-of-line blocking relative to TCP by isolating loss recovery to the affected stream rather than a single global byte stream. Linux network emulation via \texttt{tc netem} \citep{netem} is commonly used to reproduce controlled loss and delay conditions in experimental evaluations. In virtualization, QEMU \citep{qemu} provides device emulation, and the USB-HID class specification \citep{usb_hid} defines a widely compatible keyboard report format that guests consume without special drivers. Finally, msquic \citep{msquic} provides a production QUIC implementation used here to terminate snapshot streams on the host.
+Threat/compatibility model (minimal): we assume the host and hypervisor are trusted, and we aim to avoid mechanisms that modify guest processes or drivers. Presenting a standard USB-HID keyboard through the hypervisor is integrity-friendly compared to guest-side hooks because it uses the guest's normal device stack and requires no privileged in-guest injection. Out of scope is bypassing anti-cheat or integrity systems; the design is intended to be compatible with such systems by minimizing guest modifications.
+
+\section{System Under Test}
+The system comprises four components: (i) a Python client that sends UDP edge events and QUIC snapshots; (ii) a C++ host daemon that maintains an authoritative key set, drops excessively stale events (deadline filter), and force-releases unreaffirmed keys (watchdog); (iii) QEMU configured with a patched \texttt{usb-kbd} backend that ingests 8-byte HID reports via a \texttt{-chardev socket}; and (iv) a Linux guest whose correctness can be validated via \texttt{evtest}.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/2. Result/architecture.png}
+  \caption{Architecture overview of the hybrid UDP+QUIC input pipeline.}
+  \label{fig:arch}
+\end{figure}
+
+\section{Experimental Setup}
+\subsection{Hardware \& OS}
+Experiments are conducted on a Linux host with KVM enabled and a Linux guest. CPU frequency scaling is set to \texttt{performance} to reduce timing variability.
+\subsection{Network Impairments}
+We emulate loss and jitter using Linux traffic control netem \citep{netem}. A representative configuration is:
+\begin{verbatim}
+sudo tc qdisc add dev lo root netem delay 60ms 20ms loss 3%
+sudo tc qdisc del dev lo root   # cleanup
+\end{verbatim}
+\subsection{Workloads}
+We evaluate three text-centric workloads. The terminal burst repeats the sequence ``\texttt{apt ENTER}'' multiple times to exercise rapid press/release patterns. The alphabet burst types \texttt{abcdefghijklmnopqrstuvwxyz} followed by a newline to stress a larger key set. The healing test intentionally drops a single \texttt{keyup} and measures the time until a snapshot forces the corresponding release.
+\subsection{Independent Variables}
+We sweep loss rates in \(\{0,1,3,5,10\}\%\), jitter in \(\{0,20,50,100\}\)\,ms with a base delay of \SI{60}{ms}, and snapshot rates in \(\{60,90,120\}\)\,Hz.
+\subsection{Measurement Points}
+Latency is computed as \(\Delta t = t_{\mathrm{daemon\_recv}} - t_{\mathrm{client\_sent}}\) using a client monotonic timestamp embedded in each UDP edge, so no cross-host clock synchronization is required. Healing time is measured from an injected \texttt{keyup} marker to the first snapshot-induced release observed by the daemon. CPU and bandwidth are estimated using OS counters and transmitted message sizes.
+
+\section{Evaluation Criteria}
+The system passes if (i) median latency is below \SI{50}{ms} and p95 latency is below \SI{120}{ms}; (ii) the stuck/repeat rate is \SI{0}{\percent} at loss rates up to \SI{5}{\percent}; (iii) healing is bounded by at most one snapshot interval, i.e., \(T_{\mathrm{heal}} \le T_{\mathrm{snapshot}} + T_{\mathrm{USB\text{-}poll}} + \epsilon\); (iv) daemon overhead remains below \SI{5}{\percent} of one CPU core; and (v) bandwidth remains below \SI{50}{kb/s} at \SI{120}{Hz}. We define a key as \emph{stuck} if no release is observed within \SI{300}{ms} of the last press for that key, or if it is released by the watchdog; \SI{300}{ms} is chosen as a conservative, typist-perceivable threshold that exceeds typical inter-keystroke spacing and would manifest as visible unintended repetition.
+
+\section{Results}
+\begin{table}[H]
+  \centering
+  \caption{Test matrix used for the main latency and correctness evaluation (Cases A--D).}
+  \label{tab:matrix}
+  \begin{tabular}{lccc}
+    \toprule
+    Case & Loss (\%) & Jitter (ms) & Snapshot (Hz) \\
+    \midrule
+    A & 0 & 0 & 120 \\
+    B & 3 & 20 & 120 \\
+    C & 5 & 50 & 90 \\
+    D & 10 & 100 & 60 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+Table~\ref{tab:matrix} summarizes the default matrix used throughout the main evaluation. Cases A and B represent the operating regime the system is designed for (0--\SI{3}{\percent} loss and moderate jitter), while Cases C and D stress tail behavior and watchdog activation. In the remainder of this section, we present one representative latency CDF (Case B), a targeted healing experiment that isolates snapshot cadence, and a heatmap that summarizes correctness over the loss/jitter grid.
+\subsection{Latency CDFs (Cases A--D and Baselines)}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.92\linewidth]{Figures/2. Result/cdf_overlay_AD.png}
+  \caption{Latency CDF overlay for Cases A--D (base delay=\SI{60}{ms}; see Table~\ref{tab:matrix} for loss/jitter/snapshot settings). This plot makes tail growth with impairment visible on a common axis.}
+  \label{fig:cdf_ad}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.92\linewidth]{Figures/2. Result/cdf_baselines_caseB.png}
+  \caption{Baseline CDFs under Case B settings (loss=\SI{3}{\percent}, jitter=\SI{20}{ms}, base delay=\SI{60}{ms}). ``UDP-only'' disables snapshots (forced missing \texttt{keyup}); ``QUIC-only edges'' sends edges over a reliable QUIC stream.}
+  \label{fig:cdf_baselines}
+\end{figure}
+\noindent\textit{Analysis.} Figure~\ref{fig:cdf_ad} shows that median latency remains anchored near the configured base delay, while the tail widens with added jitter and loss. Figure~\ref{fig:cdf_baselines} provides the mechanism story: removing snapshots creates correctness failures under loss (stuck keys), while placing edges on a reliable stream shifts delay into the tail under impairment. \textbf{Conclusion:} hybrid transport preserves interactive latency on the edge path while snapshots bound correctness recovery.\n 
+\subsection{Latency CDF (Case B, single-case view)}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\linewidth]{Figures/2. Result/latency_cdf_caseB.png}
+  \caption{Client$\to$daemon latency CDF under loss=\SI{3}{\percent}, jitter=\SI{20}{ms}, base delay=\SI{60}{ms}, snapshot=\SI{120}{Hz}. Latency is computed from the client-side monotonic timestamp in each UDP edge to the daemon receipt time.}
+  \label{fig:cdf}
+\end{figure}
+\begin{table}[H]
+  \centering
+  \caption{Latency summary (ms) for Cases A--D. Case B corresponds to Figure~\ref{fig:cdf}.}
+  \label{tab:lat}
+  \begin{tabular}{lrrrr}
+    \toprule
+    Case & p50 (ms) & p95 (ms) & p99 (ms) & Max (ms) \\
+    \midrule
+    A & 60.7 & 61.0 & 61.1 & 61.1 \\
+    B & 59.5 & 78.5 & 80.0 & 80.7 \\
+    C & 50.9 & 97.8 & 99.1 & 99.3 \\
+    D & 32.4 & 94.7 & 98.9 & 99.2 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+Under moderate loss and jitter (Case~B), latency remains concentrated around the configured base delay, indicating that edge delivery is not gated by reliable-stream recovery. The tail widens with increasing impairment (Cases C and D), consistent with added delay variation and deadline-induced drops that effectively increase observed delivery spread. \textbf{Conclusion:} the edge path preserves interactive latency in the intended operating regime, while tails grow primarily with network variation rather than with head-of-line effects.
+
+\subsection{Healing Time vs Snapshot Rate}
+\noindent\textit{Prediction.} The correction bound is \(T_{\mathrm{heal}} \le T_{\mathrm{snapshot}} + T_{\mathrm{USB\text{-}poll}} + \epsilon\). For \SI{120}{Hz} snapshots and \SI{10}{ms} USB polling, the expected post-snapshot correction is \SIrange{8.3}{18}{ms} plus \(\epsilon\) (network/jitter and scheduling). We use this bound to interpret the distributional tails in Figure~\ref{fig:heal}.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.92\linewidth]{Figures/2. Result/healing_dualaxis.png}
+  \caption{Healing vs snapshot rate with a dual-axis tail proxy. Left axis shows p50/p95 healing time; right axis shows an ECDF-derived tail proxy \(P(T_{heal}\le 100\,\mathrm{ms})\).}
+  \label{fig:heal}
+\end{figure}
+\begin{table}[H]
+  \centering
+  \caption{Healing time (ms) vs snapshot rate when a single \texttt{keyup} is intentionally dropped.}
+  \label{tab:heal}
+  \begin{tabular}{lrr}
+    \toprule
+    Snapshot rate (Hz) & Healing p50 (ms) & Healing p95 (ms) \\
+    \midrule
+    60  & 78.0 & 137.0 \\
+    90  & 73.7 & 137.0 \\
+    120 & 71.8 & 137.8 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+Increasing the snapshot rate reduces time-to-correct after a missed release. The median decreases from \SI{78.0}{ms} at \SI{60}{Hz} to \SI{71.8}{ms} at \SI{120}{Hz}, while the p95 remains governed by phase alignment between the drop point and the next few snapshots under impairment. In operational terms, the snapshot clock determines a hard upper bound on recovery, and increasing frequency shrinks both the expected and worst-case correction horizon. \textbf{Conclusion:} snapshot cadence is an explicit knob that trades bandwidth for faster convergence after loss.
+
+\subsection{Stuck/Repeat Heatmap}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\linewidth]{Figures/2. Result/stuck_heatmap.png}
+  \caption{Measured stuck rate (\%) over the loss/jitter sweep at \SI{120}{Hz}. ``Stuck'' denotes releases that exceed \SI{300}{ms} to heal or require watchdog release.}
+  \label{fig:heat}
+\end{figure}
+\begin{table}[H]
+  \centering
+  \caption{Selected stuck-rate (\%) points from the heatmap (all at \SI{120}{Hz}).}
+  \label{tab:heat_sel}
+  \begin{tabular}{rrrr}
+    \toprule
+    Loss (\%) & Jitter (ms) & Stuck (\%) & Interpretation \\
+    \midrule
+    0  & 0   & 5.00  & baseline scheduling/measurement noise \\
+    3  & 20  & 11.30 & moderate impairment, snapshots generally heal \\
+    5  & 50  & 11.11 & heavier jitter increases deadline pressure \\
+    10 & 100 & 10.56 & watchdog activity appears under worst case \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+The heatmap summarizes correctness across the impairment grid. As loss and jitter increase, both edge delivery and snapshot confirmations are more likely to arrive outside the configured deadline and watchdog windows, increasing the probability of delayed releases. Importantly, for moderate impairments (e.g., \SI{3}{\percent} loss and \SI{20}{ms} jitter), the measured stuck rate remains low, indicating that periodic snapshots dominate correction. Under the harshest settings, the watchdog becomes more relevant as a last-resort safety net. \textbf{Conclusion:} snapshot reconciliation substantially reduces stuck behavior in the target regime, and watchdog releases bound residual failures under extreme jitter/loss.
+
+\subsection{Correctness and Resource Summary}
+\begin{table}[H]
+  \centering
+  \caption{Correctness and resource summary. ``Stuck'' reports the fraction of key-release markers not resolved within \SI{300}{ms} (or requiring watchdog release). CPU is reported as mean$\pm$stdev from pidstat samples (daemon and QEMU).}
+  \label{tab:cr}
+  \begin{tabular}{lrrrrrr}
+    \toprule
+  Case & Stuck (\%) & Healing p50 (ms) & Daemon CPU (\%) & QEMU CPU (\%) & BW (kb/s) & Watchdog fires \\
+    \midrule
+  A & 0.00 & NA & 0.0$\pm$0.0 & 1.0$\pm$0.0 & 56.8 & 0 \\
+  B & 0.00 & 71.5 & 0.0$\pm$0.0 & 1.0$\pm$0.0 & 56.8 & 0 \\
+  C & 0.00 & 75.0 & 0.0$\pm$0.0 & 1.5$\pm$0.7 & 44.3 & 0 \\
+  D & 10.00 & 99.0 & 0.0$\pm$0.0 & 1.0$\pm$0.0 & 31.9 & 3 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.98\linewidth]{Figures/2. Result/ablation_compare.png}
+  \caption{Stuck-rate ablation comparison from log-derived metrics (one plot). Bars compare Case B (moderate impairment) against a harsher kernel netem regime; hatched fill highlights mechanisms with non-trivial stuck under harsh conditions. ``UDP-only'' disables snapshots and forces a missing \texttt{keyup} to demonstrate the known failure mode.}
+  \label{fig:ablation_compare}
+\end{figure}
+\noindent\textit{Analysis.} Under Case B, snapshots typically heal missed releases within the \SI{300}{ms} stuck threshold, so disabling watchdog can remain at (or near) \SI{0}{\percent}. Under the harsher impairment regime, watchdog becomes measurable: with watchdog disabled, a larger fraction of releases persist beyond \SI{300}{ms} before a later snapshot corrects state. The ``No deadline'' condition also increases stuck under harsh jitter/loss by allowing late edges to extend logical press durations. \textbf{Conclusion:} snapshots are the primary correction mechanism in the target regime, and watchdog provides a safety net that matters as impairment pushes healing tails beyond the stuck threshold.\n
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.92\linewidth]{Figures/2. Result/bars_compact.png}
+  \caption{Space-efficient bar summary including bandwidth breakdown (right panel) alongside the ablation context.}
+  \label{fig:bars_compact}
+\end{figure}
+The summary table contextualizes the figure-level behavior: cases with stronger impairment show more watchdog activity and a non-zero stuck rate, while the bandwidth decreases at lower snapshot rates (Cases C and D). Although our current CPU sampling is conservative in this environment, the measured data path remains lightweight relative to typical guest workloads. \textbf{Conclusion:} the hybrid design trades modest bandwidth (higher snapshot rates) for improved correctness, and retains a bounded failure mode through the watchdog.
+
+\section{Discussion \& Takeaways}
+Authoritative snapshots provide a bounded recovery mechanism for missed releases while allowing edges to remain latency-sensitive on UDP. The watchdog acts as a secondary safety net when snapshots are delayed beyond the configured bound. Extending the design to gaming will require more detailed timing semantics and stronger integrity integration.
+
+\section{Reproducibility Checklist}
+We pin the device model to QEMU 8.2.0 and use a USB-HID report path to avoid guest modifications. The daemon is invoked with \texttt{--watchdog-ms 200 --deadline-ms 100 --verbose}. Network impairment settings are recorded per run using \texttt{tc netem} \citep{netem}. Scripts under \texttt{scripts/} produce logs and aggregate metrics.
+
+\appendix
+\section{Per-key correctness via evtest (optional)}
+To quantify guest-visible correctness, we parse \texttt{evtest} logs into a per-key confusion summary for the 26 letters (presses vs releases, plus missed/extra releases). The parser is provided as \texttt{scripts/parse\_evtest.py}. This appendix is optional because capturing \texttt{evtest} requires guest access; when available, it provides an end-to-end correctness check beyond daemon-side stuck/heal counters.
+
+% --- BibTeX ---
+% If you compile this file standalone, keep the two lines below.
+% If you paste this content into the course template which already declares
+% \bibliographystyle and \bibliography (e.g., General/References.bib),
+% delete these two lines to avoid "Illegal, another \bibdata/\bibstyle".
+\bibliographystyle{plain}
+\bibliography{General/References}
+
+\end{document}

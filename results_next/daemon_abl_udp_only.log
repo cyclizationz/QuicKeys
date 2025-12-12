@@ -1,0 +1,1387 @@
+[hidra] daemon starting
+  udp edges : 0.0.0.0:4444
+  hid socket: /run/user/1000/hidra.kbd (QEMU should be server=on)
+  watchdog  : 200 ms
+  deadline  : 100 ms
+  stuck(ms) : 300 ms
+[hidra] msquic snapshot listener on :4445 (ALPN hidra-snp)
+[hidra] msquic edge listener on :4446 (ALPN hidra-edg)
+[lat] dt_ms=58.6441 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[hidra] progress: rx=1 emits=1 quic_snapshots=0 socket=[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+waiting
+[lat] dt_ms=48.6846 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.0488 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.8576 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.38 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.9613 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.1534 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.0513 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.0385 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.9501 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.0823 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.7399 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.0696 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.7548 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.4917 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.1734 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.4086 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.2166 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.1922 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.3854 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.4514 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.1702 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.9899 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.4733 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.1021 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.6239 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.6939 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.157 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.3846 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.8007 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.968 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.0901 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.7542 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.1803 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.7204 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.1843 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.1574 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.9027 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.3949 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.8547 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.289 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.932 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.9995 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.9115 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.4634 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.5196 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.039 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.877 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.4684 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.7602 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.1003 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.1439 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.6851 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.1826 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.4641 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.2756 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.513 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.6549 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.579 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.1511 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.7423 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.6242 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.422 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.9941 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.2328 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=81.8021 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.9899 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.6802 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.0696 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.1134 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.7017 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.5894 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.0006 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.5401 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.0094 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.2479 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.0674 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.3787 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.1029 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.4972 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.1042 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.9927 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.0841 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.8771 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.1786 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.3386 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.2141 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.0348 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.5259 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.3148 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.1877 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.264 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.8536 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.0196 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.8366 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.5855 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.5027 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.9599 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.2975 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.9897 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.558 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.1848 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.5837 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.9751 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.018 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.9352 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.4752 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.8451 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.8728 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.8662 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.7945 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.0201 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.2946 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.0759 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.6423 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.022 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.9381 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.9335 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.0491 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.8007 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.7282 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.3154 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.9526 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.9813 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.9214 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.2945 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.0505 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.5922 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.8003 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.7259 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.3911 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.8406 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.4969 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.4038 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.3763 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.0022 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.6325 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.8459 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.1793 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.9634 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.9175 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.9849 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.9064 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.8605 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.1244 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.1597 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.8827 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.3637 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.5626 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.3492 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.7836 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.2198 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.7058 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.7249 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.6047 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.015 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.611 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.6358 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.8627 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.6973 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.7729 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.7493 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.9843 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.5821 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.9219 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.0577 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.9897 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.1392 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.0598 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[hidra] progress: rx=267 emits=169 quic_snapshots=0 socket=[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+waiting
+[lat] dt_ms=45.7646 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.0116 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.7239 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.3626 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.7261 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.254 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.1059 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.6058 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.1408 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.0254 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.9278 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.99 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=80.3745 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.4632 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.8406 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.3427 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.2808 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.8296 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.4046 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.3441 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.0169 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.4335 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.2296 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.1107 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.1756 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.1162 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.1436 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.1712 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.7098 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.0844 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.7734 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.2053 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.1945 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.1653 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.9882 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.9972 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.9811 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.8992 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.2207 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.1691 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.3375 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.3026 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.886 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.4158 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.3864 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.4381 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.3898 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.2171 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.3368 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.063 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.2873 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.2311 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.0691 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.0179 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.7485 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.8129 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.3471 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.3919 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.2141 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.1433 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.2157 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.0292 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.1744 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.9603 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.6876 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.7657 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.0709 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.8264 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.2352 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.9314 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.662 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.8357 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.2437 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.8691 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.7491 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.3104 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.4122 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.8323 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.9934 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.2158 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.054 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.4092 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.4501 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.3828 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.983 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=80.6901 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.6422 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.3967 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.7406 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.6479 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.1057 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.7028 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.9898 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.7002 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.3924 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.6876 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.3265 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.9684 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.9516 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.9987 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.5461 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.5049 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.5299 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.8493 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.4463 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.068 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.4649 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.1296 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.3185 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.3758 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.5416 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.8597 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.3584 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.7789 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.133 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.1773 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.6057 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.3606 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.2018 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.275 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.5563 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.7903 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.251 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.1508 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.5529 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.8169 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.0429 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.6173 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.4012 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.503 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.1709 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.4424 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.2261 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.6002 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.0615 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.4256 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.9931 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.392 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.7662 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.1118 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.4461 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.9742 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.0994 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.4868 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.4642 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.9525 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=80.5297 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.1533 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.7221 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.267 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.6955 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.6602 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.9994 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.1941 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.0411 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.845 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.8833 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.7938 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.1924 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.8938 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.0273 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.4718 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.5116 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.8058 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.59 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.3878 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.3593 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[hidra] progress: rx=532 emits=336 quic_snapshots=0 socket=[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+waiting
+[lat] dt_ms=45.0712 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.3498 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.7452 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.3163 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.2897 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.2539 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.2744 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.2739 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.9093 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.2836 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.4095 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.4227 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.2445 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.4933 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.2813 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.7373 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.422 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=80.2517 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.8378 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.8133 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.6973 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.568 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.3317 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.5419 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.5413 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.4405 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.2359 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.223 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.3589 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.0529 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.5059 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.2447 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.1313 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.6448 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.6324 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.1208 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.9539 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.9554 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.1736 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.8279 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.8188 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.9712 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.8455 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.8143 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.838 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.4339 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.978 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.0816 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.1009 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.1219 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.8349 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.0953 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.3871 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.0748 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.268 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.7016 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.1365 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.3787 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.2215 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.2081 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.1625 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.8961 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.3085 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.2272 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.2126 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.3221 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.2992 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.0851 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.1252 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.9951 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.2858 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.2641 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.0369 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.2265 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.2644 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.3575 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.2973 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.5149 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.1455 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.8827 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.0379 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.9216 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.9901 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.798 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.7134 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.0268 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.1042 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.6364 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.1183 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.9094 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.4947 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.6461 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.4531 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.2261 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.5643 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.3589 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.7719 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.5063 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.3078 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.88 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.5273 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.3331 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.6326 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.8401 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.2266 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.0214 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.3074 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.1091 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.9764 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.9357 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.9312 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.7008 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.853 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.8964 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.6225 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.2287 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.088 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.0113 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.7468 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.085 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.1406 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.0774 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.9049 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.9721 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.7911 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.1256 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.7742 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.3131 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.2019 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.1857 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.5479 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.9856 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.5015 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.5063 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.506 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.0256 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.2661 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.2024 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.4723 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.1785 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.2295 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.8558 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.7796 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.4884 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.3826 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.5768 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.031 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.9287 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.1235 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.9502 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.8573 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.4834 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.9967 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.7671 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.2224 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.2047 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.8024 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.2685 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.1488 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.328 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.1224 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.689 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.5428 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=48.2093 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.4762 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.2904 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.3668 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.8171 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[hidra] progress: rx=797 emits=504 quic_snapshots=0 socket=[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+waiting
+[lat] dt_ms=66.9442 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.7161 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.6568 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.0165 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.8124 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.8819 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.7325 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.9377 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.0303 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.1415 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.0419 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.1162 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.1706 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.4243 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.4232 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.3387 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.6907 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.1825 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.7088 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.5031 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.4792 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.8838 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.4937 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.2662 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.3174 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.837 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.5219 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.7289 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=55.1764 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.6208 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=59.5546 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.6649 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.5479 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.4329 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.8733 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.7687 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.0874 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.5593 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.0793 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.4361 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.1955 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.2675 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.2692 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.2329 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.2866 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.8459 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.156 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.6475 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.2122 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.6855 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.3341 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.8593 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.2654 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.9239 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.7296 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.371 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.3261 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.1179 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.0124 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.0874 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.9254 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.8835 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.135 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=80.5392 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=42.8581 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.2006 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.1995 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.9388 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.4446 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.126 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.1914 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.2573 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.3208 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.8653 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.5819 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.1021 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.5258 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.4899 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.4417 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.4356 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.8065 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.0939 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.6892 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.0132 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.6258 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.0392 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.8599 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.7733 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.6598 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.7468 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.2591 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=49.193 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.7677 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.3451 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.609 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.1313 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.1383 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.6815 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.344 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=64.3283 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.8538 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.1618 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=57.0135 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.3814 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=63.9935 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.0494 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.2664 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.2399 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.3309 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.3566 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=80.4774 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.1219 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.6536 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.2571 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.1728 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.2633 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=70.1881 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.8616 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=77.3074 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.913 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.8961 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=44.6165 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.9151 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.3405 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=41.7584 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.9575 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.0949 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.323 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=67.206 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.0118 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.4697 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.2098 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.3825 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.6489 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.1184 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=79.7385 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=74.6311 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.1589 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.5527 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.265 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=75.735 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=56.4226 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=46.3518 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.867 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=66.6344 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=53.3898 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=68.8732 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.2574 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.2672 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.5415 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=52.0914 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=72.4362 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.9681 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.964 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.0791 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=62.9596 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.096 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=69.23 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.0354 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.9469 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=73.464 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.3887 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=47.9694 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=51.8306 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[hidra] progress: rx=1059 emits=668 quic_snapshots=0 socket=[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+waiting
+[lat] dt_ms=46.7552 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.0072 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=61.0131 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.9559 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=45.7878 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=43.6581 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=78.2899 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=54.8004 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=40.6562 cmd=up key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=71.2202 cmd=down key=a
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=58.8955 cmd=up key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=76.2369 cmd=down key=p
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=65.9884 cmd=down key=t
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=50.6434 cmd=down key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[lat] dt_ms=60.6134 cmd=up key=ENTER
+[hidra] HID socket connect failed (/run/user/1000/hidra.kbd). Waiting for QEMU to listen... (set HID_SOCK or run scripts/run_qemu.sh)
+[stuck] key=4 age_ms=306.422
+[stuck] key=19 age_ms=301.331
+[stuck] key=23 age_ms=301.341
